@@ -20,9 +20,6 @@ header nav div .texto-link:hover {
     background-color: #FFC600;
   }
 }
-.contHome {
-  width: auto;
-}
 .contHome .contHome__title {
   text-align: center;
   padding-top: 5rem;
@@ -67,7 +64,7 @@ header nav div .texto-link:hover {
 .contFooter {
   width: 100%;
   height: auto;
-  padding-top: 2rem;
+  padding-top: 50px;
   box-sizing: border-box;
   background-color: #212529;
   display: grid;
@@ -98,4 +95,21 @@ header nav div .texto-link:hover {
   color: #FFC600;
   text-decoration: underline;
   font-weight: bold;
+}
+
+@media (min-width: 400px) and (max-width: 768px) {
+  .contHome .contHome__dest {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contHome .contHome__dest .contHome__dest--card img {
+    width: 200px;
+    height: 200px;
+  }
+  .contFooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }/*# sourceMappingURL=main.css.map */

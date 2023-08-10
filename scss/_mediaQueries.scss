@@ -1,2 +1,23 @@
 
 
+@media (min-width:400px) and (max-width: 768px){
+    .contHome{
+    
+        & .contHome__dest{
+            display: flex;
+            flex-direction: column;
+            align-items: center;  
+            
+            & .contHome__dest--card img{
+                width: 200px;
+                height: 200px;
+            }
+        }
+    }
+
+    .contFooter{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
