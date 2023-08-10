@@ -1,0 +1,17 @@
+header {
+    & nav {
+      &  div {
+            & .texto-link{
+                color: #fff;
+                text-transform: uppercase;
+                font-size: smaller;
+                font-weight: bolder;
+            }
+
+            & .texto-link:hover{
+                color: #FFC600;
+                text-decoration: underline;
+            }
+        }
+    }
+} 

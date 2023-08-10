@@ -1,0 +1,101 @@
+header nav div .texto-link {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: smaller;
+  font-weight: bolder;
+}
+header nav div .texto-link:hover {
+  color: #FFC600;
+  text-decoration: underline;
+}
+
+@keyframes btnColor {
+  0% {
+    background-color: #fff;
+  }
+  50% {
+    background-color: #FFC600;
+  }
+  100% {
+    background-color: #FFC600;
+  }
+}
+.contHome {
+  width: auto;
+}
+.contHome .contHome__title {
+  text-align: center;
+  padding-top: 5rem;
+  box-sizing: border-box;
+}
+.contHome .contHome__dest {
+  padding-top: 5rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  /*alinea horizontalmente x*/
+  justify-items: center;
+  /*alinea verticalmente Y*/
+}
+.contHome .contHome__dest .contHome__dest--card {
+  width: 400px;
+  height: 400px;
+  /*control de cada cuadrilla grid*/
+  justify-self: center;
+  text-align: center;
+  margin-bottom: 5rem;
+  box-sizing: border-box;
+}
+.contHome .contHome__dest .contHome__dest--card .card__btn {
+  background-color: #212529;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.contHome .contHome__dest .contHome__dest--card .card__btn:hover {
+  background-color: #FFC600;
+  color: #212529;
+  animation: 0.8s btnColor linear 1;
+}
+.contHome .contHome__mapa iframe {
+  width: 100%;
+  height: 500px;
+}
+
+.contFooter {
+  width: 100%;
+  height: auto;
+  padding-top: 2rem;
+  box-sizing: border-box;
+  background-color: #212529;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+}
+.contFooter .contFooter__card {
+  width: 200px;
+  height: 200px;
+}
+.contFooter .contFooter__card .contFooter__branding {
+  width: 200px;
+  height: auto;
+}
+.contFooter .contFooter__card .contFooter__card--title {
+  font-weight: bolder;
+  color: #fff;
+}
+.contFooter .contFooter__card .contFooter__lista {
+  list-style: none;
+  padding: 0;
+}
+.contFooter .contFooter__card .contFooter__lista li a {
+  text-decoration: none;
+  color: #fff;
+}
+.contFooter .contFooter__card .contFooter__lista li a:hover {
+  color: #FFC600;
+  text-decoration: underline;
+  font-weight: bold;
+}/*# sourceMappingURL=main.css.map */

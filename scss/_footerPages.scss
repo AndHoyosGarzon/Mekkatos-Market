@@ -1,0 +1,44 @@
+.contFooter{
+    width: 100%;
+    height: auto;
+    padding-top: 2rem;
+    box-sizing: border-box;
+    background-color: #212529;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+
+        & .contFooter__card{
+           width: 200px;
+           height: 200px;
+           
+
+           & .contFooter__branding{
+            width: 200px;
+            height: auto;
+           }
+
+            & .contFooter__card--title{
+                font-weight: bolder;
+                color: #fff;
+            }
+
+            & .contFooter__lista{
+                list-style: none;
+                padding: 0;
+                
+            }
+
+            & .contFooter__lista li a{
+                text-decoration: none;
+                color: #fff;
+            }
+
+            & .contFooter__lista li a:hover{
+                color: #FFC600;
+                text-decoration: underline;
+                font-weight: bold;
+            }   
+        }
+
+}
