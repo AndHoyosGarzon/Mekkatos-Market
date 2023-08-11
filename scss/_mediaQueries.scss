@@ -21,3 +21,62 @@
         align-items: center;
     }
 }
+
+
+@media (min-width: 400px) and (max-width: 768px){
+    
+    .contenedor{
+        
+       & .contenedor__info {
+            display: none;
+       }
+    }
+}
+
+//pagina de contacto
+@media (min-width:400px) and (max-width: 768px){
+
+    .contenedor__form{
+
+        & .contenedor__form--cardForm{
+           
+            & .imgForm{
+                display: none;
+            }
+
+            & .formContact{
+                width: 100vw;
+                
+               
+            }
+        }
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
